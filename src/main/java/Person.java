@@ -5,7 +5,6 @@ public class Person {
     private int age;
 
 
-
     // Konstruktor
     public Person(String name, int age) {
         this.name = name;

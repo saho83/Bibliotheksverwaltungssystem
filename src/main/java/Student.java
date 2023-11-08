@@ -14,7 +14,7 @@ public class Student extends User {
     @Override
     public void ausleihen(IBookable bookable) {
 
-         // überprüft, ob das Buch verfügbar ist
+        // überprüft, ob das Buch verfügbar ist
         if (Book.isAvailable) {
             System.out.println("Buch " + Book.getTitle() + "wurde von Student " + getName() + " ausgeliehen.");
             Book.setAvailable(false); // Buch als ausgeliehen markieren

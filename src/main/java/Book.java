@@ -1,15 +1,12 @@
 public class Book implements IBookable {
 
     // Attribute von Book
-   static String title;
+    static String title;
     String author;
     static boolean isAvailable;
 
+
     // Konstruktor
-
-
-
-
     public Book(String title, String author, boolean isAvailable) {
         super();
         this.title = title;
@@ -35,7 +32,7 @@ public class Book implements IBookable {
     }
 
     public boolean isAvailable() {
-            return isAvailable;
+        return isAvailable;
 
     }
 
@@ -48,7 +45,6 @@ public class Book implements IBookable {
     @Override
     public void borrow() {
         setAvailable(false);
-
 
 
     }
